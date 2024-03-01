@@ -1466,12 +1466,19 @@
     react-native-qrcode-svg "6.1.2"
     react-native-svg "12.3.0"
 
+"@modules/2fa@file:./modules/2fa/":
+  version "1.0.1"
+  dependencies:
+    react-native-dropdown-picker "^5.4.6"
+    react-native-qrcode-svg "6.1.2"
+    react-native-svg "12.3.0"
+
 "@modules/privacy-policy@file:./modules/privacy-policy":
   version "1.0.1"
   dependencies:
     react-native-render-html "^5.1.0"
 
-"@modules/social-login@file:./modules/social-login/":
+"@modules/social-login@file:./modules/social-login":
   version "1.0.0"
   dependencies:
     "@invertase/react-native-apple-authentication" "^2.1.0"
